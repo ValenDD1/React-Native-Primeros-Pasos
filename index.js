@@ -6,8 +6,11 @@ import { Hello } from './components/semana1/Hello';
 import { Frase } from './components/semana2/frase';
 //semana 3
 import { Contador } from './components/semana3/Contador';
+//semana 4
+import { Ubicacion } from './components/semana4/Ubicacion';
+
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
 // the environment is set up appropriately
-registerRootComponent(Contador);
+registerRootComponent(Ubicacion);
